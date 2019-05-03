@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 imageHolder.setImageResource(imageIDs[imageID_index]);
 
                 //animate the image every 2 seconds ~ 2000 milliseconds
-                imageHolder.animate().alpha(1);
+                imageHolder.animate();
 
                 //jump to the next image ID index
                 ++imageID_index;
